@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho {
+   background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cabeçalho-imagem{
+    width: 10%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 18px;
+}
+.personagens{
+    width: 500px;
+    padding: 0 40px;
+}
+
+.Corpo{
+    background-image: linear-gradient(#fa9bda,#fa1db0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Corpo-Div{
+    width: 30%;
+}
+
+.Corpo-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.Corpo-texto1{
+    font-size: large;
+}
+
+.rodape{
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape-img{
+    height: 25px;
+}
